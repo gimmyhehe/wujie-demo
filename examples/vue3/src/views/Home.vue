@@ -4,7 +4,7 @@
 
 <script>
 import HelloWorld from '@/components/TinyPager.vue'
-console.log(456)
+console.log(789)
 export default {
   data() {
     return {
