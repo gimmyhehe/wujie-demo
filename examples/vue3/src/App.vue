@@ -26,3 +26,10 @@ export default {
   }
 };
 </script>
+
+<style>
+html:root {
+  margin-top: 600px;
+  margin-left: 0;
+}
+</style>

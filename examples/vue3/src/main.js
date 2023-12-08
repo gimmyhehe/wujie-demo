@@ -22,6 +22,14 @@ import "ant-design-vue/es/modal/style/index.css";
 import "ant-design-vue/es/popover/style/index.css";
 import "./index.css";
 
+import globalConfig from '@opentiny/vue-renderless/common/deps/popup-manager'
+
+// 需要判断是否在子应用当中
+if (window.__POWERED_BY_WUJIE__) {
+  // 子应用中可以通过window.parent获取主应用的window
+  globalConfig.viewportWindow = window.parent
+}
+
 createApp(App)
   .use(Tag)
   .use(Button)

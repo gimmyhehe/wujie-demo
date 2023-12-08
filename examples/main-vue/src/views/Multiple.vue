@@ -1,6 +1,6 @@
 <template>
   <div style="height: 100%; width: 100%">
-    <WujieVue class="item" name="vue3" :url="vue3Url" :sync="true"></WujieVue>
+    <WujieVue class="item" name="vue3" :url="vue3Url" :sync="true" :plugins="[{ jsBeforeLoaders: [{ content: 'window.tinyGetRealWindow = () => window.parent' }] }]"></WujieVue>
   </div>
 </template>
 
