@@ -3,7 +3,6 @@
 </template>
 
 <script>
-// import HelloWorld from "./Dialog.vue";
 import HelloWorld from '@/components/TinyPager.vue'
 export default {
   data() {
