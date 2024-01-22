@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import HelloWorld from '@/components/TinyPager.vue'
+import HelloWorld from '@/components/Modal.vue'
 export default {
   data() {
     return {
