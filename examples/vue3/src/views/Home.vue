@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import HelloWorld from '@/components/Modal.vue'
+import HelloWorld from '@/components/TinyGrid.vue'
 export default {
   data() {
     return {
